@@ -59,7 +59,7 @@ Alternatively, if you prefer Python, you can use the Python shell:
 ./bin/pyspark
 ```
 
-And run the following command, which should also return 1,000,000,000:
+And run the following command,  which should also return 1,000,000,000:
 
 ```python
 >>> spark.range(1000 * 1000 * 1000).count()
